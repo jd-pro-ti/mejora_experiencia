@@ -1,0 +1,18 @@
+@import "@fontsource/onest/400.css";
+@import "@fontsource/onest/600.css";
+@import "@fontsource/onest/700.css";
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1C3458;
+  --color-secondary: #EA5261;
+  --color-accent: #7CB936;
+
+  --color-secondary-accent: #791429;
+  --color-orange-accent: #C74B17;
+}
+
+body {
+  font-family: 'Onest', sans-serif;
+}

@@ -1,0 +1,72 @@
+.pueblos-swiper .swiper-button-prev,
+.pueblos-swiper .swiper-button-next {
+  background-color: #1C3458;
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.pueblos-swiper .swiper-button-prev:hover,
+.pueblos-swiper .swiper-button-next:hover {
+  background-color: #2c4a78;
+  transform: scale(1.1);
+}
+
+.pueblos-swiper .swiper-button-prev::after,
+.pueblos-swiper .swiper-button-next::after {
+  font-size: 18px;
+  color: white;
+}
+
+@media (max-width: 640px) {
+  .pueblos-swiper .swiper-button-prev,
+  .pueblos-swiper .swiper-button-next {
+    width: 30px;
+    height: 30px;
+  }
+
+  .pueblos-swiper .swiper-button-prev::after,
+  .pueblos-swiper .swiper-button-next::after {
+    font-size: 14px;
+  }
+}
+
+.hovered img {
+  transform: scale(1.10);
+}
+
+.eventos-swiper .swiper-button-prev,
+.eventos-swiper .swiper-button-next {
+  background-color: #1C3458;
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+  transition: background-color 0.3s, transform 0.3s;
+  top: 40%;
+}
+
+.eventos-swiper .swiper-button-prev:hover,
+.eventos-swiper .swiper-button-next:hover {
+  background-color: #2c4a78;
+  transform: scale(1.1);
+}
+
+.eventos-swiper .swiper-button-prev::after,
+.eventos-swiper .swiper-button-next::after {
+  font-size: 18px;
+  color: white;
+}
+
+@media (max-width: 640px) {
+  .eventos-swiper .swiper-button-prev,
+  .eventos-swiper .swiper-button-next {
+    width: 30px;
+    height: 30px;
+  }
+
+  .eventos-swiper .swiper-button-prev::after,
+  .eventos-swiper .swiper-button-next::after {
+    font-size: 14px;
+  }
+}
